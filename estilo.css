@@ -1,0 +1,31 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(1,27,152,1) 0%, rgba(255,255,255,1) 100%);
+  
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: center;
+
+}
+
+.alinhamento{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  
+
+}
+
+#texto1, #texto2{
+  margin:50px;
+  font-size: 24px;
+  background-color: red;
+  height: 40px;
+}
+
+.botao{
+  margin-left: 50px;
+}
