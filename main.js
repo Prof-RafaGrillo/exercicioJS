@@ -25,3 +25,16 @@ function alterarTexto(){
   
   document.querySelector("#texto2").innerHTML = textoForm
 }
+
+function contar() {
+  let saida = document.getElementById('saida')
+
+  saida.innerHTML += `<h2>Contando de 1 até 10</h2>`
+
+ 
+  for (var i = 1; i<10; i++) {
+      saida.innerHTML += ` ${i} &#x1F449;`
+      i ++ // Corresponde a cont = cont + 1
+  }
+  saida.innerHTML += ` &#x1F3C1;`
+}
