@@ -34,7 +34,6 @@ function contar() {
  
   for (var i = 1; i < 11; i++) {
       saida.innerHTML += ` ${i} &#x1F449;`
-      i ++ // Corresponde a cont = cont + 1
       console.log(i)
   }
   saida.innerHTML += ` &#x1F3C1;`
